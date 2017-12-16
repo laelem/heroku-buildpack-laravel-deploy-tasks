@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-if (test -f $1/server.php) then
+if (test -f $1/artisan) then
   echo "Laravel Artisan"
   exit 0
 else
